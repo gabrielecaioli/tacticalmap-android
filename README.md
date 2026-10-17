@@ -101,3 +101,10 @@ When the app starts, enter a **Mission ID** and a **User ID**. All devices in th
 | Post notifications | Service and download notifications |
 | Vibrate, wake lock | SOS feedback, keep sensors active |
 | Internet, network state | Firebase sync and map tiles |
+
+## Authors
+
+- Klaudio Ciacia
+- Gabriele Caioli
+- Matteo Halilaga
+- Lorenzo Vanni
