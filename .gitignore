@@ -1,0 +1,39 @@
+# Gradle
+.gradle/
+build/
+.kotlin/
+
+# Local configuration (SDK path, machine-specific settings)
+local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+.navigation/
+
+# Build artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# Signing keys
+*.jks
+*.keystore
+
+# Firebase config (contains project API keys, see README)
+google-services.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Presentation source (exported PDF is in docs/)
+*.pptx

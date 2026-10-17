@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_mesh_status"
+        android:orderInCategory="100"
+        android:title="Mesh Status"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_define_map_center"
+        android:orderInCategory="120"
+        android:title="@string/action_define_map_center"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_download_map"
+        android:orderInCategory="121"
+        android:title="@string/action_download_map"
+        app:showAsAction="never" />
+</menu>

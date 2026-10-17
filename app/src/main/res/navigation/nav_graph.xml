@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ConfigFragment">
+
+    <fragment
+        android:id="@+id/ConfigFragment"
+        android:name="com.example.myapplication.ui.fragment.ConfigFragment"
+        android:label="Configuration">
+        <action
+            android:id="@+id/action_ConfigFragment_to_MapFragment"
+            app:destination="@id/MapFragment"
+            app:popUpTo="@id/ConfigFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.myapplication.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.myapplication.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/MapFragment"
+        android:name="com.example.myapplication.ui.fragment.MapFragment"
+        android:label="Tactical Map" />
+</navigation>
